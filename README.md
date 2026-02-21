@@ -1,7 +1,7 @@
 # Mav_Depen_ValidExpre_Ofus
 
 
-*1. Estructura obligatoria del repositorio*
+##1. Estructura obligatoria del repositorio
 
 Instruccioens claras de compilación y ejecución:
 - Primero, abre la consola (cmd) y ubícate en la carpeta raíz del proyecto, donde está el archivo pom.xml.
