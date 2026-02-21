@@ -1,7 +1,7 @@
 # Mav_Depen_ValidExpre_Ofus
 
 
-##1. Estructura obligatoria del repositorio
+## 1. Estructura obligatoria del repositorio
 
 Instruccioens claras de compilación y ejecución:
 - Primero, abre la consola (cmd) y ubícate en la carpeta raíz del proyecto, donde está el archivo pom.xml.
@@ -16,7 +16,7 @@ java -cp "target/stackHandler-0.0.1-SNAPSHOT-obf.jar;target/libs/" stackHandler.
 - En ambos casos, el texto entre comillas al final es la expresión que quieres validar, y la puedes cambiar por cualquier otra para hacer pruebas.
 - Con eso puedes compilar y ejecutar tanto la versión original como la ofuscada sin problema.
 
-*5. Parte D*
+## 5. Parte D
 
 Breve análisis escrito explicando:
 
@@ -30,7 +30,7 @@ Breve análisis escrito explicando:
   Sí, todavía es posible entender la lógica del programa, pero requiere más tiempo y análisis. Aunque los nombres fueron cambiados, las comparaciones y el flujo del algoritmo siguen visibles, por lo que una persona que revise el código con atención puede deducir que se trata de un validador de símbolos usando una pila.
 
 
-*6. Parte E*
+## 6. Parte E*
 
 Conclusión breve confirmando que el comportamiento no cambió:
   En conclusión, al comparar los dos main (el obtenido desde JD-GUI y el de Eclipse) se puede ver que, aunque cambian los nombres de clases, métodos y variables por la ofuscación, la lógica y el flujo del programa siguen siendo exactamente los mismos. Ambos realizan las mismas operaciones, llaman a los mismos métodos en el mismo orden y producen los mismos resultados. Esto confirma que la ofuscación no modificó el comportamiento del programa, únicamente afectó la legibilidad del código.
