@@ -30,7 +30,7 @@ Breve análisis escrito explicando:
   Sí, todavía es posible entender la lógica del programa, pero requiere más tiempo y análisis. Aunque los nombres fueron cambiados, las comparaciones y el flujo del algoritmo siguen visibles, por lo que una persona que revise el código con atención puede deducir que se trata de un validador de símbolos usando una pila.
 
 
-## 6. Parte E*
+## 6. Parte E
 
 Conclusión breve confirmando que el comportamiento no cambió:
   En conclusión, al comparar los dos main (el obtenido desde JD-GUI y el de Eclipse) se puede ver que, aunque cambian los nombres de clases, métodos y variables por la ofuscación, la lógica y el flujo del programa siguen siendo exactamente los mismos. Ambos realizan las mismas operaciones, llaman a los mismos métodos en el mismo orden y producen los mismos resultados. Esto confirma que la ofuscación no modificó el comportamiento del programa, únicamente afectó la legibilidad del código.
